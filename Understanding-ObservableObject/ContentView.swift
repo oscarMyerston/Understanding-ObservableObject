@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ObservedObject var fancyTimer = FancyTimer()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("\(self.fancyTimer.value)")
+            .font(.largeTitle)
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {

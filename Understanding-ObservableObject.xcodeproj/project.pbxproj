@@ -11,6 +11,7 @@
 		48AFE61729F2CD7E0062D0DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFE61629F2CD7E0062D0DA /* ContentView.swift */; };
 		48AFE61929F2CD820062D0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AFE61829F2CD820062D0DA /* Assets.xcassets */; };
 		48AFE61C29F2CD820062D0DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AFE61B29F2CD820062D0DA /* Preview Assets.xcassets */; };
+		48AFE62329F6FA020062D0DA /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFE62229F6FA010062D0DA /* FancyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		48AFE61629F2CD7E0062D0DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48AFE61829F2CD820062D0DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48AFE61B29F2CD820062D0DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48AFE62229F6FA010062D0DA /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				48AFE61429F2CD7E0062D0DA /* Understanding_ObservableObjectApp.swift */,
 				48AFE61629F2CD7E0062D0DA /* ContentView.swift */,
+				48AFE62229F6FA010062D0DA /* FancyTimer.swift */,
 				48AFE61829F2CD820062D0DA /* Assets.xcassets */,
 				48AFE61A29F2CD820062D0DA /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				48AFE61729F2CD7E0062D0DA /* ContentView.swift in Sources */,
 				48AFE61529F2CD7E0062D0DA /* Understanding_ObservableObjectApp.swift in Sources */,
+				48AFE62329F6FA020062D0DA /* FancyTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
